@@ -1,0 +1,4 @@
+short_description,description,resolution_notes,priority,resolution_category,resolution_time_hours,sla_breached
+SAP session timeout,SAP session timed out during invoice processing,Restarted the SAP session and retried the transaction,High,Configuration,1.5,False
+Queue processing failure,Queue items remained pending after a bot execution failure,Checked queue configuration and restarted the affected process,Medium,Data,2.0,False
+Application login failure,Bot could not log in because the application rejected the session,Updated the application session configuration and tested login,High,Configuration,3.0,True
